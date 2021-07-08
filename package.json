@@ -11,10 +11,7 @@
   },
   "dependencies": {
     "vue": "^3.0.11",
-    "vue-router": "^4.0.8",
-    "vue-oidc-client": "^1.0.0-alpha.2",
-    "pinia": "^2.0.0-beta.2",
-    "axios": "^0.21.1"
+    "pinia": "^2.0.0-beta.2"
   },
   "devDependencies": {
     "@types/node": "^15.12.2",
