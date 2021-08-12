@@ -1,7 +1,9 @@
 import { App } from 'vue';
 
 /**
- * Vue3 Configuration Plugin
+ * Vue plugin for Uvicore Configuration Library
+ * @param config any
+ * @returns
  */
 export function createConfig(config: any) {
   return {

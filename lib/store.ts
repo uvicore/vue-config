@@ -1,5 +1,9 @@
 import { defineStore } from 'pinia';
 
+
+/**
+ * Pinia Configuration Store
+ */
 export const useConfigStore = defineStore({
   // unique id of the store across your application
   id: 'config',
@@ -15,22 +19,6 @@ export const useConfigStore = defineStore({
     load(config: any) {
       this.config = config;
     }
-
   }
 
 });
-
-
-
-
-
-
-
-
-// def cant(self, permissions: Union[str, List]) -> bool:
-//     """Check if user does not have one of these permissions"""
-//     return not self.can(permissions)
-
-// def cannot(self, permissions: Union[str, List]) -> bool:
-//     """Alias to cant"""
-//     return not self.cant(permissions)
