@@ -1,4 +1,4 @@
-import { App } from 'vue';
+import { App, inject } from 'vue';
 
 /**
  * Vue plugin for Uvicore Configuration Library
