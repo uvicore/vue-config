@@ -9,7 +9,7 @@ export const useConfigStore = defineStore({
   id: 'config',
 
   state: () => ({
-    config: {}
+    config: {} as any
   }),
 
   getters: {
